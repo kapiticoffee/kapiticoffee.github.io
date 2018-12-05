@@ -1,8 +1,71 @@
-body {
+@media screen and (max-width:600px) {
+
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 50px 1fr 1fr;
+    }
+
+    .g001 {
+      grid-column: 1;
+      grid-row: 2 / 3;
+    }
+
+    body {
+        background-image: url("seal2.png");
+        background-color: white;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top center;
+        background-size: 15vh;
+
+
+    }
+
+    .text {
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    img {
+        height: 150px;
+        position: absolute;
+        float: center;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: ;
+        color: black;
+        text-align: center;
+     }
+
+
+
+
+}
+
+
+
+/*body {
    background-image: url("seal2.png");
-   background-color: #ffffff;
+   background-color: #f2ebe4;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   background-position: center;
-   background-size: 300px;
-}
+   background-position: top center;
+   background-size: 100px;
+} */
