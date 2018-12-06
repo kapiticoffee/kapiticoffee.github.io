@@ -58,6 +58,7 @@ html {
     .text {
         font-size: 18px;
         text-align: center;
+        padding-top: 100px;
 
     }
 
@@ -79,15 +80,15 @@ html {
     h3 {
         font-family: 'Canela-Thin';
         font-weight: normal;
-        line-height: 0.3;
+        line-height: 0.1;
         font-size: 70px;
     }
 
     p {
         font-family: helvetica;
         font-weight: thin;
-        line-height: 1;
-        font-size: 14px;
+        line-height: 1.1;
+        font-size: 16px;
     }
 
     .footer {
@@ -95,7 +96,7 @@ html {
         left: 0;
         top: 0;
         width: 100%;
-        background-color: black ;
+        background-color: none ;
         color: black;
         text-align: center;
      }
