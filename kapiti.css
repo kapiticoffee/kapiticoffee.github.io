@@ -1,24 +1,56 @@
 @media screen and (max-width:600px) {
 
 
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 50px 1fr 1fr;
-    }
+    * {
+  box-sizing: border-box;
+}
 
-    .g001 {
-      grid-column: 1;
-      grid-row: 2 / 3;
-    }
+main {
+  margin: 4rem;
+}
+
+@font-face {
+  font-family: 'Canela-ThinItalic';
+  src: url('fonts/Canela-ThinItalic.eot?#iefix') format('embedded-opentype'),  url('fonts/Canela-ThinItalic.otf')  format('opentype'),
+       url('fonts/Canela-ThinItalic.woff') format('woff'), url('fonts/Canela-ThinItalic.ttf')  format('truetype'), url('fonts/Canela-ThinItalic.svg#Canela-ThinItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Canela-Thin';
+  src: url('fonts/Canela-Thin.eot?#iefix') format('embedded-opentype'),  url('fonts/Canela-Thin.otf')  format('opentype'),
+       url('fonts/Canela-Thin.woff') format('woff'), url('fonts/Canela-Thin.ttf')  format('truetype'), url('fonts/Canela-Thin.svg#Canela-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+html {
+  font-size: 100%;
+  color: #000000;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  -webkit-font-kerning: normal;
+          font-kerning: normal;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+
+
+
+
 
     body {
         background-image: url("seal2.png");
         background-color: white;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-position: top center;
-        background-size: 15vh;
+        background-position: center;
+        background-size: 300px;
 
 
     }
@@ -44,12 +76,26 @@
         float: center;
     }
 
+    h3 {
+        font-family: 'Canela-Thin';
+        font-weight: normal;
+        line-height: 0.3;
+        font-size: 70px;
+    }
+
+    p {
+        font-family: helvetica;
+        font-weight: thin;
+        line-height: 1;
+        font-size: 14px;
+    }
+
     .footer {
         position: fixed;
         left: 0;
-        bottom: 0;
+        top: 0;
         width: 100%;
-        background-color: ;
+        background-color: black ;
         color: black;
         text-align: center;
      }
@@ -66,6 +112,6 @@
    background-color: #f2ebe4;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   background-position: top center;
+   background-position: center;
    background-size: 100px;
 } */
